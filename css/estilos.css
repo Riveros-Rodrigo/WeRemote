@@ -7,14 +7,52 @@
 }
 
 header{
-  width: 90%;
-  margin: auto;
+  width: 80%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+  z-index: -1;
 }
-header .logo{
-  margin: 0px 30px;
+
+/* menu de hamburguesa */
+
+header .main-nav{
+  height: 0px;
+  z-index: 2;
+}
+
+.toggle-menu {
+  position: absolute;
+  cursor: pointer;
+  width: 40px;
+  z-index: 1;
+}
+
+.main-menu {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5D5FEF;
+  transition: transform 0.3s;
+  transform: translateY(-108%);
+  width: 308%;
+}
+
+.main-menu--show {
+  transform: translateY(0);
+}
+
+.main-menu__item {
+  padding: 1em;
+}
+
+.main-menu__link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 main{
@@ -63,7 +101,6 @@ main{
   text-align: center;
   border-radius: 50%;
   cursor: pointer;
-  z-index: 999;
 }
 .slider__btn:hover { 
   background: #fff;
@@ -360,3 +397,5 @@ footer .politicas a{
   line-height: 24px;
   letter-spacing: 0.02em;
 }
+
+/* menu de hamburguesa */
