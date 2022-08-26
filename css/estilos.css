@@ -447,6 +447,7 @@ footer .politicas a{
   .inner{
     font-size: 20px;
   }
+  /* main customer */
   main .customer h2{
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -464,6 +465,7 @@ footer .politicas a{
     letter-spacing: 0.02em;
     color: #414141;
   }
+  /* contacto */
   section h1{
     font-family: 'Source Sans Pro';
     font-style: normal;
