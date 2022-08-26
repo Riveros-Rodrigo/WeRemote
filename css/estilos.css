@@ -18,7 +18,6 @@ header .logo{
 }
 
 main{
-  width: 90%;
   margin: auto;
 }
 
@@ -372,6 +371,22 @@ footer .politicas a{
 }
 
 @media screen and (min-width:1300px){
+  body section{
+    background-image: url(../imagenes/webFondo/component1.svg);     
+    background-repeat: no-repeat;
+    background-position: -1% -2%; 
+  }
+  body main{
+    background-image: url(../imagenes/webFondo/component2.svg);
+    background-repeat: no-repeat;
+    background-position-y: 15%;
+  }
+  body .customer{
+    background-image: url(../imagenes/webFondo/component3.svg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size: contain;
+  }
   header .logo{
     margin: 0% 20% 0% 0%;
   }
